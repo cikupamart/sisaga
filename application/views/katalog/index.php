@@ -20,11 +20,12 @@
                     <div class="col-md-9">
                         <a class="btn btn-warning btn-fill" href="<?= site_url('katalog/add') ?>"><i
                                 class="fa fa-plus"></i> Tambah Data</a>
-                        <a class="btn btn-success btn-fill" href="<?= site_url('export/katalog') ?>" target="_blank"><i
+                        <?php if($kategori): ?>
+                        <a class="btn btn-success btn-fill" href="<?= site_url('export/katalog/'.$kategori) ?>" target="_blank"><i
                                 class="fa fa-download"></i> Export Excel</a>
-                        <a class="btn btn-danger btn-fill" href="<?= site_url('export/katalog/pdf') ?>" target="_blank"><i
+                        <a class="btn btn-danger btn-fill" href="<?= site_url('export/katalog/'.$kategori.'/pdf') ?>" target="_blank"><i
                                 class="fa fa-file-pdf-o"></i> Export PDF</a>
-
+                        <?php endif; ?>
                     </div>
                     <div class="col-md-3 pull-right">
                         <select name="order" id="sl-urut" class="form-control">

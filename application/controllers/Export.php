@@ -25,11 +25,12 @@ class Export extends MY_Controller
      * Excel5 untuk export Excel
      * PDF untuk export PDF
      */
-    public function katalog($type = 'excel5')
+    public function katalog($id_kategori, $type = 'excel5')
     {
         $this->db->select("concat(b.kode_kategori, '.', b.id) AS kodeBarang, b.nama AS NamaBarang, b.merk, b.tipe, b.ukuran, b.satuan, b.hargaPasar, b.biayaKirim, b.resistensi, b.ppn, b.hargashsb, b.keterangan, b.spesifikasi, k.nama AS KategoriBarang");
         $this->db->from('barang b');
         $this->db->join('kategori k', 'b.kode_kategori = k.kode_kategori');
+        $this->db->where('k.id', $id_kategori);
         $query = $this->db->get();
         $this->exportKatalog($query, $type); // Gunakan excel5 untuk Export Excel dan pdf untuk dalam bentuk PDF
         $this->addTemp($this->getPath() . $this->filename);

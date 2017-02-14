@@ -35,6 +35,7 @@ class Katalog extends MY_Controller
             $this->data['tree_menu'] = $list_kategori;
         }
         // Prepare Data
+        $this->data['kategori'] = isset($filter['kategori']) ? $filter['kategori'] : NULL;
         $this->data['barang'] = $this->barang_m->get_all_data($filter);
         $this->data['autocomplete'] = $this->barang_m->get_autocomplete();
         // Do init
