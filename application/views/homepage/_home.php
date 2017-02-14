@@ -64,14 +64,14 @@ $x = 0;
             <div class="header">
                 <h4 class="title">Hot List Kategori</h4>
             </div>
-            <div class="content">
+            <div class="content col-lg-offset-2">
                 <?php foreach ($hotlist as $list): ?>
                     <a href="<?=site_url('homepage/katalog?kategori=') . $list->kode_kategori?>">
-                        <div class="col-sm-6 col-md-4 col-lg-2">
+                        <div class="col-sm-6 col-md-3 col-lg-2">
                             <div class="thumbnail">
                                 <img src="<?=base_url('assets/img/kategori.gif')?>" alt="...">
                                 <div class="caption">
-                                    <h3><?=ucwords(strtolower(shorten($list->nama)))?></h3>
+                                    <h3><?=ucwords(strtolower($list->nama))?></h3>
                                 </div>
                             </div>
                         </div>
