@@ -55,14 +55,14 @@
  */
 $server = $_SERVER['HTTP_HOST'];
 switch ($server) {
-case "localhost/sisaga":
-case "127.0.0.1/sisaga":
+case "localhost":
+case "127.0.0.1":
 	$env = 'development';
 	break;
 default:
 	$env = 'production';
 }
-define('ENVIRONMENT', 'production');
+define('ENVIRONMENT', $env);
 
 /*
  *---------------------------------------------------------------
