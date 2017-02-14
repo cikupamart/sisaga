@@ -138,7 +138,7 @@
                                     : <?php echo mdate('%d-%m-%Y', strtotime(str_replace('-', '/', $brg->createdAt))); ?>
                                 </p>
                                 <p><i class="fa fa-user fa-fw"></i>
-                                    Created By : <?= $brg->first_name ?> <?= $brg->last_name ?>
+                                    Created By : <?= $brg->first_name ?>
                                 </p>
                             </td>
                             <td width="15%" align="center">

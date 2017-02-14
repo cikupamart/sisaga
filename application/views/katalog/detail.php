@@ -84,7 +84,7 @@ function cek_file($filename) {
                                             <a href="<?=site_url('katalog/detail/' . $key->id)?>" target='_blank' class="btn btn-success btn-fill btn-xs" role="button">detail</a>
                                         </div>
                                         <div class="col-md-9 text-right">
-                                            <h1 style="font-size:19pt; line-height:0; margin: 0; padding-top: 10px;"><?='Rp. ' . number_format($key->hargashsb, '0', '', '.') . ',-';?></h1>
+                                            <h1 style="font-size:17pt; line-height:0; margin: 0; padding-top: 10px;"><?='Rp. ' . number_format($key->hargashsb, '0', '', '.') . ',-';?></h1>
                                         </div>
                                     </div>
                                     </p>
@@ -123,7 +123,7 @@ function cek_file($filename) {
                                             <a href="<?=site_url('katalog/detail/' . $key->id)?>" target='_blank' class="btn btn-success btn-fill btn-xs" role="button">detail</a>
                                         </div>
                                         <div class="col-md-9 text-right">
-                                            <h1 style="font-size:19pt; line-height:0; margin: 0; padding-top: 10px;"><?='Rp. ' . number_format($key->hargashsb, '0', '', '.') . ',-';?></h1>
+                                            <h1 style="font-size:17pt; line-height:0; margin: 0; padding-top: 10px;"><?='Rp. ' . number_format($key->hargashsb, '0', '', '.') . ',-';?></h1>
                                         </div>
                                     </div>
                                     </p>
@@ -140,7 +140,7 @@ function cek_file($filename) {
 <?php
 function potong($var)
 {
-    return (count($var)<=20)?substr($var,0,19).'...':$var;
+    return (count($var)<=60)?substr($var,0,60).'...':$var;
 }
 
 ?>

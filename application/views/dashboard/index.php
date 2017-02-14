@@ -70,17 +70,6 @@
 			</div>
 		</div>
 	</div>
-	<!-- <div class="col-md-6">
-		<div class="card">
-			<div class="header">
-				<h4 class="title">Kategori Poluler</h4>
-				<span class="category">Banyak barang dari kategori populer</span>
-			</div>
-			<div class="content">
-				<canvas id="chart2"></canvas>
-			</div>
-		</div>
-	</div> -->
 </div>
 
 <!-- newest item -->
