@@ -1,5 +1,5 @@
 var data = {
-    labels: ["Peralatan & Mesin", "Gedung & Bangunan", "Jalan, Irigasi & Jaringan", "Asset Tetap & Lainnya"],
+    labels: ["Peralatan & Mesin", "Gedung & Bangunan", "Asset Tetap & Lainnya", "Kelompok Barang"],
     datasets: [
         {
             label: "Jumlah barang",

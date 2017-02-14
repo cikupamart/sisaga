@@ -64,11 +64,12 @@ class Insight_m extends CI_Model
 
     public function getChartKategori()
     {
+        $id = array(2, 3, 5, 9);
     	$result = array();
-    	for ($i=2; $i <=5 ; $i++) { 
+    	foreach ($id as $list) {
     		$this->db->select('COUNT(*) as jum');
 	    	$this->db->from('barang');
-	    	$this->db->like('kode_kategori','0'.$i, 'after');
+	    	$this->db->like('kode_kategori','0'.$list, 'after');
 	    	array_push($result, $this->db->get()->result()[0]->jum);
     	}
 
