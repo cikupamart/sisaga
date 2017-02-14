@@ -1,0 +1,10 @@
+[07-Oct-2016 07:56:51 UTC] PHP Fatal error:  Class 'Auth' not found in /home/mascitra/public_html/dhs/application/controllers/Users.php on line 12
+[07-Oct-2016 08:16:56 UTC] PHP Fatal error:  Class 'Auth' not found in /home/mascitra/public_html/dhs/application/controllers/Users.php on line 12
+[07-Oct-2016 08:19:46 UTC] PHP Fatal error:  Class 'Auth' not found in /home/mascitra/public_html/dhs/application/controllers/Users.php on line 12
+[07-Oct-2016 08:23:21 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/mascitra/public_html/dhs/application/config/production/config.php on line 397
+[30-Nov-2016 14:37:30 UTC] PHP Fatal error:  Class 'PHPExcel_Writer_excel5' not found in /home/mascitra/public_html/dhs/application/libraries/PHPExcel/IOFactory.php on line 141
+[30-Nov-2016 14:37:35 UTC] PHP Fatal error:  Class 'PHPExcel_Writer_excel5' not found in /home/mascitra/public_html/dhs/application/libraries/PHPExcel/IOFactory.php on line 141
+[02-Dec-2016 16:07:26 UTC] PHP Fatal error:  Class 'PHPExcel_Writer_excel5' not found in /home/mascitra/public_html/dhs/application/libraries/PHPExcel/IOFactory.php on line 141
+[02-Dec-2016 16:16:59 UTC] PHP Fatal error:  Class 'PHPExcel_Writer_excel5' not found in /home/mascitra/public_html/dhs/application/libraries/PHPExcel/IOFactory.php on line 141
+[02-Dec-2016 16:18:27 UTC] PHP Fatal error:  Class 'PHPExcel_Writer_excel5' not found in /home/mascitra/public_html/dhs/application/libraries/PHPExcel/IOFactory.php on line 141
+[02-Dec-2016 16:20:07 UTC] PHP Fatal error:  Class 'PHPExcel_Writer_excel5' not found in /home/mascitra/public_html/dhs/application/libraries/PHPExcel/IOFactory.php on line 141

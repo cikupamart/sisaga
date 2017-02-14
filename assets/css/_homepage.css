@@ -1,0 +1,79 @@
+body{
+	background-color: #efefef;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.list-group-item:hover{
+	cursor: pointer;
+	background-color: #d4d4d6;
+}
+
+#highlight-container{
+	display: flex;
+	justify-content: center;
+	background: grey url(../img/highlight.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+#highlight{
+	display: flex;
+	max-width: 75%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height:95vh;
+	margin-bottom: 30px;
+	padding-bottom: 100px;
+}
+
+#highlight .form-control {
+	background-color: rgba(255,255,255,.5);
+}
+
+#highlight h1, h3, h4{
+	color: #FFF;
+	margin:0;
+}
+
+#highlight h1{
+	font-weight: bolder;
+	font-size: 4em;
+}
+
+#highlight h4 {
+	font-size: 1.2em;
+}
+
+#highlight .input-group{
+	margin-top: 50px;
+}
+
+#kategori {
+	font-size: 10pt;
+}
+
+.card *{color:#000;}
+.card .caption h3{
+	font-size: 14pt;
+}
+.badge{color:#fff;}
+
+@media (max-width:500px) {
+	#highlight{
+		width: 100%;
+		padding: 0;
+	}
+
+	#highlight h1{
+		font-size: 24pt;
+	}
+
+	#highlight h4{
+		font-size: 12pt;
+	}
+}
+
